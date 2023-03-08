@@ -261,8 +261,8 @@ function move(loadSpeed) {
          }
          
          function reload() {
-         		document.querySelector('#iframe').src = document.querySelector('#iframe').src;
-             closeNav();
+           location.reload();
+           closeNav();
          }
              document.body.setAttribute("oncontextmenu", "return false;")
              document.querySelector("#iframe").setAttribute("oncontextmenu", "return false;");
